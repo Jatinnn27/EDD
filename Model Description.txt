@@ -1,0 +1,7 @@
+Model Description
+
+The Estimated Delivery Date (EDD) prediction model is a data-driven tool designed to improve logistics and customer satisfaction. Using a machine learning algorithm, it evaluates key factors such as the courier partner, shipping and delivery details, and the type of account. By analyzing these inputs, the model predicts the number of days it will take for an order to be delivered.
+
+The core of the model is an XGBoost regressor, known for its efficiency and accuracy in handling structured data. It has been trained on historical delivery records, learning patterns from millions of past shipments. Features like pickup and drop locations, delivery mode (e.g., air or surface), and service-level agreements (SLAs) provide the model with the context it needs for precise predictions.
+
+This model is flexible and scalable, making it suitable for individual orders and bulk requests. By integrating it with platforms like ClickPost, businesses can access real-time EDD predictions, enabling better planning and communication with customers. The system ensures predictions remain fast, even when handling large volumes of orders, and supports ongoing improvements as more data becomes available. In short, it’s a practical solution for making deliveries more predictable and efficient.
